@@ -28,7 +28,7 @@ const Timeline = () => {
       const loadedData = timelineMonths.map(({ folder, label }) => {
         const photos = [];
         for (let i = 1; i <= 20; i++) {
-          const photoPath = `src/assets/images/${folder}/${i}.jpeg`;
+          const photoPath = `public/assets/images/${folder}/${i}.jpeg`;
           photos.push({
             src: photoPath,
             month: label,
@@ -73,7 +73,7 @@ const Timeline = () => {
 
   return (
     <div className="timeline-page">
-      <audio ref={audioRef} src="/src/music/musica.mp3" loop />
+      <audio ref={audioRef} src="/public/music/musica.mp3" loop />
 
       <AnimatePresence>
         {!showTimeline && (
