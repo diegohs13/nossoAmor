@@ -15,9 +15,9 @@ export default function SecretMessage() {
 
   // Mensagens românticas
   const romanticMessages = {
-    3: "Mensagem para o dia 3...",
-    13: "Mensagem para o dia 13...",
-    23: "Mensagem para o dia 23..."
+    3: "Feliz dia 3 Meu Amooooor voce é tudo pra mim meu amor, hoje a gente faz 2 meses aaaaaaaaaaaaaaaaa tipo amor meu deus eu te amo super infinito ce sabe ne?",
+    13: "Feliz dia 13 MOMO Hoje é um dia especial PQ NOIS VAI SE VER DENOVOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO, e eu quero que você saiba o quanto você significa para mim. Voce pediu pra mim te pedie em namoro de novo, e eu quero que você saiba que...... QUER NAMORAR COMIGO MOMO? HEIN HEIN... Eu te amo muito, e sou muito feliz por ter você na minha vida. Você é TUDO pra mim. Te amo super infinito!",
+    23: "FELIZ DIA 23 AMOOOR, HOJE NOIS VAI VIAJAR PRA SUA CASINHA NE SDJHFASGJHDFGJA ESPERO QUE ESTEJA DANDP TUDO CERTO. To escrevendo essa mensangem antes do dia 23 ne jshdfgjhsad mas oh, meu pai vacilao nao quer deixar eu viajar pq quer trabalhar esse besta, chamei pra trabalhar mo cota e ele fica ai... mas amor eu vou viajar sim ta, desde ja peço desculpas pq vou trablhar muito essa semana pra terminar o trabalho e a gente conseguir ir juntos... E EU VOU CONSEGUIR MOMO TE AMO MUITOOOOO"
   };
 
   const messageDays = [3, 13, 23];

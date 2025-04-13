@@ -11,8 +11,6 @@ const timelineMonths = [
   { folder: 'jan25', label: 'Janeiro 2025' },
   { folder: 'fev25', label: 'Fevereiro 2025' },
   { folder: 'mar25', label: 'Março 2025' },
-  { folder: 'abr25', label: 'Abril 2025' },
-  { folder: 'mai25', label: 'Maio 2025' },
 ];
 
 const Timeline = () => {

@@ -7,13 +7,13 @@ export default function Home() {
     <div className="home">
       <h1 className="home-title">Para o Amor da Minha Vida</h1>
       <p className="home-subtitle">
-        Cada momento ao seu lado se transforma em uma memória preciosa. 
-        Este é nosso cantinho digital, onde nosso amor ganha forma.
+        Cada momento ao seu lado se transforma em uma memória azul. 
+        Este é nosso cantinho digital, Eu Te Amo Meu Amor.
       </p>
 
       <div className="menu-container">
         <Link to="/timeline" className="menu-button">
-          <FiCalendar /> Nossa Linha do Tempo
+          <FiCalendar /> Nossa Linha do Tempo em Fotos
         </Link>
         
         <Link to="/secret" className="menu-button">
