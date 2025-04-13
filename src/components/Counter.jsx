@@ -4,7 +4,7 @@ import { FiArrowLeft, FiClock, FiHeart } from 'react-icons/fi';
 import './Counter.css';
 
 export default function Counter() {
-  // Datas importantes (ajuste para as suas!)
+  // Datas importantes
   const meetDate = new Date("2024-04-28T00:00:00");
   const datingDate = new Date("2025-02-03T00:00:00");
 
@@ -16,21 +16,20 @@ export default function Counter() {
     days: 0, hours: 0, minutes: 0, seconds: 0 
   });
 
-  // Formata número com 2 dígitos
+ 
   const formatNumber = (num) => num.toString().padStart(2, '0');
 
   useEffect(() => {
     const interval = setInterval(() => {
       const now = new Date();
 
-      // Calcula tempo desde que se conheceram
       const meetDiff = now - meetDate;
       const meetDays = Math.floor(meetDiff / (1000 * 60 * 60 * 24));
       const meetHours = Math.floor((meetDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       const meetMinutes = Math.floor((meetDiff % (1000 * 60 * 60)) / (1000 * 60));
       const meetSeconds = Math.floor((meetDiff % (1000 * 60)) / 1000);
 
-      // Calcula tempo de namoro
+
       let datingDays = 0, datingHours = 0, datingMinutes = 0, datingSeconds = 0;
       if (now >= datingDate) {
         const datingDiff = now - datingDate;
